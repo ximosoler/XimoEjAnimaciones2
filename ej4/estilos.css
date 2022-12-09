@@ -1,0 +1,22 @@
+*{
+    background-image: url("/image/The_Leaning_Tower_of_Pisa_SB.jpeg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+img{
+    width: 100px;
+    height: 100px;
+    margin-left: 900px;
+}
+
+.btn{
+    width: 200px;
+    height: 50px;
+    margin-top: 750px;
+    margin-left: 80vw;
+    
+}

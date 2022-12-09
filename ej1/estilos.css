@@ -1,0 +1,22 @@
+.cuadrado{
+    top: 50px;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border: 1px solid #000000;
+    position: relative;
+    background: red;
+}
+
+.cuadrado:hover{
+    animation-name: animacion;
+    animation-duration: 2s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes animacion{
+    100% {transform:rotate(45deg);}
+    from{background-color: red;}
+    to{background-color: blue;}
+
+}
