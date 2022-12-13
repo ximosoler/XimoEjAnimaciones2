@@ -1,5 +1,5 @@
 body{
-    background-image: url("/image/The_Leaning_Tower_of_Pisa_SB.jpeg");
+    background-image: url("/image/xcanasta-fija-con-base-de-anclaje.jpg.pagespeed.ic.LesHiHbrwO.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -10,7 +10,7 @@ body{
 img{
     width: 100px;
     height: 100px;
-    margin-left: 900px;
+    margin-left: 870px;
 }
 
 .btn{
@@ -23,16 +23,19 @@ img{
 
 .animacion {
     animation-name: caida;
-    animation-duration: 9.5s;
-    animation-iteration-count: 1;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
     animation-fill-mode: forwards;
     animation-direction: normal;
     animation-timing-function:  cubic-bezier(.18,.07,.95,.89);
-    animation-delay: 1s;
+   
 }
 
 @keyframes caida {
+    50% {
+        transform: translateY(83vh);
+    }
     100% {
-        transform: translateY(79vh);
+        transform: translateY(0vh);
     }
 }

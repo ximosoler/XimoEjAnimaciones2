@@ -1,5 +1,5 @@
 body{
-    background-image: url("/image/The_Leaning_Tower_of_Pisa_SB.jpeg");
+    background-image: url("/image/estación-espacial-internacional1.jpg");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -10,20 +10,21 @@ body{
 img{
     width: 100px;
     height: 100px;
-    margin-left: 900px;
+    margin-left: 400px;
+    margin-top: 100px;
 }
 
 .btn{
     width: 200px;
     height: 50px;
-    margin-top: 750px;
-    margin-left: 80vw;
+    margin-top: 600px;
+    margin-left: 89vw;
     
 }
 
 .animacion {
     animation-name: caida;
-    animation-duration: 9.5s;
+    animation-duration: 5s;
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
     animation-direction: normal;
@@ -32,7 +33,16 @@ img{
 }
 
 @keyframes caida {
+    25% {
+        transform: translateY(250px);
+    }
+    50% {
+        transform: translateX(500px);
+    }
+    75% {
+        transform: translateY(750px);
+    }
     100% {
-        transform: translateY(79vh);
+        transform: translateX(1000px);
     }
 }

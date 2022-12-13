@@ -1,0 +1,40 @@
+body {
+    background-image: url("/image/dstonek_58160.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    margin-left: 670px;
+    margin-top: 10px;
+}
+
+.btn {
+    width: 200px;
+    height: 50px;
+    margin-top: 600px;
+    margin-left: 89vw;
+
+}
+.animacion {
+    animation-name: avanza;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier(.18, .07, .95, .89);
+    animation-delay: 1s;
+}
+
+@keyframes avanza{
+    50%{
+        transform: translateY(49vh);
+    }
+    100%{
+        transform: translateY(79vh);
+    }
+}
