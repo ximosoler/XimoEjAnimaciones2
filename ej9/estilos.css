@@ -41,7 +41,7 @@ img{
     }
     100%{
         width: 50px;
-        border-radius:50%;
+        border-radius:100%;
         box-shadow: 0px 0px 0px ;
         
     }
