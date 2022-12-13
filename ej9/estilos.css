@@ -1,0 +1,49 @@
+body{
+
+    height: 100px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+img{
+    width: 50px;
+    margin-left: 50px;
+
+}
+
+.btn{
+    width: 100px;
+    height: 30px;
+    margin-top: 400px;
+    margin-left: 900px;
+    
+}
+
+.animacion {
+    animation-name: cambio;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-direction: normal;
+    animation-timing-function: cubic-bezier(.27,.89,1,1.04);
+    animation-delay: 20s;
+   
+}
+
+@keyframes cambio {
+    70%{    
+        width: 190px;
+        border-radius:100%;
+        box-shadow: 100px 100px 100px #0780a5;
+    }
+    100%{
+        width: 50px;
+        border-radius:50%;
+        box-shadow: 0px 0px 0px ;
+        
+    }
+
+}
